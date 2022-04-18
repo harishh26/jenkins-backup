@@ -1,0 +1,87 @@
+Started by user [8mha:////4DHRHW/gflDrIb3XmjHkaYd62A6qm3aC0e52fQJZ+lYJAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9jMSizOIMADBDA6DBAAAA[0mharish
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/c-code
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/harishh26/c-codes.git
+ > git init /var/lib/jenkins/workspace/c-code # timeout=10
+Fetching upstream changes from https://github.com/harishh26/c-codes.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/harishh26/c-codes.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harishh26/c-codes.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 82432997a6a37a65af3d205790c405d0d96cb4ec (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 82432997a6a37a65af3d205790c405d0d96cb4ec # timeout=10
+Commit message: "Update big2.c"
+First time build. Skipping changelog.
+[c-code] $ /bin/sh -xe /tmp/jenkins4020792638083524836.sh
++ cd /var/lib/jenkins/workspace/c-code/
++ make
+gcc -c main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {
+ ^~~~
+main.c: In function ‘main’:
+main.c:4:9: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+         biggest();
+         ^~~~~~~
+main.c:5:9: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+         factorial();
+         ^~~~~~~~~
+main.c:6:9: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+         reverse();
+         ^~~~~~~
+main.c:7:9: warning: implicit declaration of function ‘pallindrome’ [-Wimplicit-function-declaration]
+         pallindrome();
+         ^~~~~~~~~~~
+main.c:8:9: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+         biggest3();
+         ^~~~~~~~
+main.c:9:9: warning: implicit declaration of function ‘addnumber’ [-Wimplicit-function-declaration]
+         addnumber();
+         ^~~~~~~~~
+main.c:10:9: warning: implicit declaration of function ‘fibonacci’ [-Wimplicit-function-declaration]
+         fibonacci();
+         ^~~~~~~~~
+main.c:11:9: warning: implicit declaration of function ‘sorting’ [-Wimplicit-function-declaration]
+         sorting();
+         ^~~~~~~
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest()
+ ^~~~~~~
+gcc -c fact.c
+fact.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+  factorial() {
+  ^~~~~~~~~
+gcc -c rev.c
+rev.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ reverse()
+ ^~~~~~~
+gcc -c pallindrome.c
+pallindrome.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ pallindrome()
+ ^~~~~~~~~~~
+gcc -c big3.c
+big3.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest3() {
+ ^~~~~~~~
+gcc -c sum.c
+sum.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ addnumber()
+ ^~~~~~~~~
+gcc -c fibonacci.c
+fibonacci.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ fibonacci() {
+ ^~~~~~~~~
+gcc -c sorting.c
+sorting.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ sorting(){
+ ^~~~~~~
+gcc -o ABC.exe main.o big2.o fact.o rev.o pallindrome.o  big3.o sum.o fibonacci.o sorting.o
+Finished: SUCCESS

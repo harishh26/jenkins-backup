@@ -1,0 +1,27 @@
+Started by user [8mha:////4DHRHW/gflDrIb3XmjHkaYd62A6qm3aC0e52fQJZ+lYJAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9jMSizOIMADBDA6DBAAAA[0mharish
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/build
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/harishh26/java-code.git
+ > git init /var/lib/jenkins/workspace/build # timeout=10
+Fetching upstream changes from https://github.com/harishh26/java-code.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/harishh26/java-code.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harishh26/java-code.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1e545e007032234f737fe555eff3c3c961a2d360 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1e545e007032234f737fe555eff3c3c961a2d360 # timeout=10
+Commit message: "Delete abc"
+First time build. Skipping changelog.
+[build] $ /bin/sh -xe /tmp/jenkins4976616765964069642.sh
++ cd /var/lib/jenkins/workspace/build/
++ maven clean install
+/tmp/jenkins4976616765964069642.sh: line 3: maven: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

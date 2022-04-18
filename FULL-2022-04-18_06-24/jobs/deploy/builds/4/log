@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4HxcPdxoCZoz8rgJ6aq0XqSl00c6/WSBwMn63q/Pw9m5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4HSsAbdWPApMDvxqKZKZhuze6pxUgH9tMQGg5NcXjcBaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfRMAtZMNkcEAAAA=[0m4
+originally caused by:
+ Started by user [8mha:////4DHRHW/gflDrIb3XmjHkaYd62A6qm3aC0e52fQJZ+lYJAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9jMSizOIMADBDA6DBAAAA[0mharish
+Running as SYSTEM
+Building remotely on [8mha:////4EllAaynTh/cZeVsYYqGlG1vaKizm4AkcD5D64LkLMe6AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLJUA0MA4TO/wsYAAAA=[0mslave01 in workspace /opt/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins840898660766474850.sh
++ cp /home/ec2-user/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war /home/ec2-user/
+Triggering a new build of [8mha:////4PX6ydwa86GseW8OIIB0QLsCAy5xxivN45uivyJSnVZjAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2S1OISfQCnUQg9vwAAAA==[0mtest
+Finished: SUCCESS
